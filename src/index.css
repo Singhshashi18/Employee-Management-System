@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+*{
+    color:#fff
+}
+ body{
+    background-color: #111;
+} 
+/* helps to remove scroll bar */
+#tasklist::-webkit-scrollbar{
+display: none;
+}
+#alltask::-webkit-scrollbar{
+    display: none;
+    }
