@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from 'react'
+import  { useContext, useEffect, useState } from 'react'
 import Login from './components/Auth/Login'
 import EmpDashboard from './components/Dashboard/EmpDashboard'
 import AdmDashboard from './components/Dashboard/AdmDashboard'
@@ -37,10 +37,7 @@ const handlelogin=(email,password)=>{
     <>
     {!user ? <Login handleLogin={handlelogin}/>: ''}
     {user == 'admin' ? <AdmDashboard/> : <EmpDashboard/>}
-    {/* <Login/> */} 
-    {/* <EmpDashboard/> */}
     
-    {/* <AdmDashboard/> */}
   
     </>
   )
