@@ -199,7 +199,50 @@ const employees = [
           "failed": false
         }
       ]
-    }
+    },
+    {
+      "id": 2,
+      "firstName":"shashi singh",
+      "email": "employee2@example.com",
+      "password": "123",
+      "taskCounts":{
+          "active":2,
+          "new_task":1,
+          "completed":2,
+          "failed":0
+      },
+      "tasks": [
+        {
+          "task_title": "Update UI Components",
+          "task_description": "Redesign dashboard UI components",
+          "task_date": "2025-03-17",
+          "category": "UI/UX",
+          "active": false,
+          "new_task": false,
+          "completed": true,
+          "failed": false
+        },
+        {
+          "task_title": "Backend Optimization",
+          "task_description": "Optimize database queries for better performance",
+          "task_date": "2025-03-18",
+          "category": "Backend",
+          "active": true,
+          "new_task": true,
+          "completed": false,
+          "failed": false
+        },
+        {
+          "task_title": "Testing Payment Gateway",
+          "task_description": "Ensure proper functionality of Stripe payments",
+          "task_date": "2025-03-19",
+          "category": "Testing",
+          "active": false,
+          "new_task": false,
+          "completed": false,
+          "failed": true
+        }
+      ]
   ];
   
   const admin = {
